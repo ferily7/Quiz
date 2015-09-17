@@ -1,8 +1,8 @@
 class WebpageController < ApplicationController
 	def index
-		@webpage = Webpage.first
 	end
 
-	def new
+	def create
+		@webpage = Web.first
 	end
 end
